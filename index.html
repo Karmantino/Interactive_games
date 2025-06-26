@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Juegos interactivos de Karol</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+<link rel="icon" href="imagenes/control.webp">
+</head>
+<body>
+  <header>
+    <marquee direction="right"><h1>JUEGOS INTERACTIVOS 🎮</h1></marquee>
+    <button id="toggle-sound">🔈 Activar Sonido</button>
+  </header>
+  <main>
+    <a href="1/index.html"><section id="juego1" class="juego">⭕ Tres en Raya</section></a>
+    <a href="2/index.html"><section id="juego2" class="juego">🧠 Memorama</section></a>
+    <a href="3/index.html"><section id="juego3" class="juego">🧠 Memorama</section></a>
+    <a href="4/index.html"><section id="juego4" class="juego">♛ Ajedrez</section></a>
+    <a href="5/index.html"><section id="juego5" class="juego">🔤 Ahorcado</section></a>
+    <a href="6/index.html"><section id="juego6" class="juego">🧩 Scrabble</section></a>
+    <a href="7/index.html"><section id="juego7" class="juego">💣 Buscaminas</section></a>
+    <a href="8/index.html"><section id="juego8" class="juego">⏱💣 Buscaminas</section></a>
+  </main>
+
+  <!-- Música de fondo -->
+  <audio id="musica-fondo" src="kiss.mp3" loop></audio>
+
+  <canvas id="efecto-canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
